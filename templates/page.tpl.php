@@ -265,7 +265,7 @@
 
                 <div class="col-md-4" style="padding-bottom: 30px;">
 
-                    <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
+                    <img src="<?php print $GLOBALS['base_url']."/" ?>sites/all/themes/oulib_signage/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
 
                     <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
@@ -325,11 +325,11 @@
 
                             <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
 
-                            <li><a href="https://twitter.com/OULibrarian" class="twitter" title="twitter" target="_blank"></a></li>
+                            <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
                             <li><a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg" class="youtube" title="youtube" target="_blank"></a></li>
 
-                            <li><a href="https://www.pinterest.com/ouhoscurator/ou-hos-collections/" class="pinterest" title="pinterest" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram" target="_blank"></a></li>
 
                         </ul>
 
