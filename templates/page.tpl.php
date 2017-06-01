@@ -144,6 +144,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+	  
+	  <?php if (!empty($page['site-name'])): ?>
+                <?php print render($page['site-name']); ?>
+            <?php endif; ?>
       
     </div><!-- /.navbar-header -->
 
