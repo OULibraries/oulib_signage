@@ -246,6 +246,7 @@ img{
 	font-size: 1.1em;
 	font-family: 'Droid Sans';
 	font-weight: bold;
+	text-transform: uppercase;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
@@ -256,6 +257,33 @@ img{
 	-o-box-shadow: 0px 5px 5px #bbb;
 }
 
+.navbar-brand{
+	font-size: 1.20em;
+	height: 60px;
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	background-color: #1c1c1c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	height: 60px;
+}
 
 
 /* responsive text queries */
@@ -383,32 +411,6 @@ img{
 	margin:0px 50px 0px 30px;
 }
 
-.navbar-brand{
-	font-size: 1.20em;
-	color: #fff;
-	background-color: #1c1c1c;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	-webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-	height: 60px;
-}
-
-.navbar-brand:hover{
-	color: #fff;
-	background-color: #1c1c1c;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	-webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-}
-
-.navbar-default .navbar-brand {
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-}
 
 
 
