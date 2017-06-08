@@ -91,27 +91,41 @@
 
 
 
-
-
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-7 col-sm-12 col-xs-12">
+		<div class="col-md-8 col-sm-9 col-xs-8">
 			<?php print render($page['logo']); ?>
 		</div>
 	<?php endif; ?>
 	
 
-	<?php if (!empty($page['discover'])): ?>
-		<div class="col-md-5 col-sm-12 col-xs-12">
-			<?php print render($page['discover']); ?>	
-		</div>
-	<?php endif; ?>
+	 <div class="col-md-4 col-sm-3 col-xs-4">
+                <div class="login-area">
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-left'])): ?>
+                        <?php print render($page['login-left']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-3 hidden-sm hidden-xs">
+                      <?php if (!empty($page['login-dots'])): ?>
+                        <?php print render($page['login-dots']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <?php if (!empty($page['login-right'])): ?>
+                        <?php print render($page['login-right']); ?>
+                      <?php endif; ?>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
 
 </div>
 </div>
 </div>
+
 
 
 <div class="carousel_inner hidden-xs">
@@ -130,6 +144,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+	  
+	  <?php if (!empty($page['site-name'])): ?>
+                <?php print render($page['site-name']); ?>
+            <?php endif; ?>
       
     </div><!-- /.navbar-header -->
 
@@ -323,7 +341,7 @@
 
                         <ul>
 
-                            <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/OULibraries/" class="facebook" title="facebook" target="_blank"></a></li>
 
                             <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
